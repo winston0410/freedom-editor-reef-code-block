@@ -1,0 +1,39 @@
+{
+  "name": "@freedom-editor/reef-code-block",
+  "version": "1.0.0",
+  "description": "Code block built with Reef for Freedom Editor",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npx rollup -c;",
+    "release": "npx rollup -c; np",
+    "test": "npx jasmine"
+  },
+  "keywords": [
+    "Code",
+    "freedom-editor"
+  ],
+  "author": "Hugo Sum",
+  "homepage": "https://github.com/winston0410/freedom-editor-reef-code-block",
+  "repository": "github:winston0410/freedom-editor-reef-code-block",
+  "license": "MIT",
+  "dependencies": {
+    "reefjs": "^7.3.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "basichtml": "^2.3.0",
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jasmine": "^4.1.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jasmine": "^3.5.0",
+    "rollup": "^2.21.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-terser": "^6.1.0"
+  }
+}
