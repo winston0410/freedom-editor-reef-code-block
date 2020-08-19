@@ -17,7 +17,7 @@
   "repository": "github:winston0410/freedom-editor-reef-code-block",
   "license": "MIT",
   "dependencies": {
-    "reefjs": "^7.3.3"
+    "reefjs": "^7.3.4"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",
